@@ -1,0 +1,10 @@
+-- 7 Billion Humans --
+-- 9: Angles Dynamiques --
+
+pickup s
+a:
+if nw == datacube:
+	drop
+endif
+step s
+jump a

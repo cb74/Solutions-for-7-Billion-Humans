@@ -1,0 +1,10 @@
+-- 7 Billion Humans --
+-- 7: Station de Rassemblement --
+
+a:
+if s != hole:
+	pickup s
+	step s
+	jump a
+endif
+drop

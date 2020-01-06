@@ -1,0 +1,45 @@
+-- 7 Billion Humans --
+-- 10: Escapade d'Urgence --
+
+step w
+step w
+step w
+a:
+if c == 1:
+	if nw == nothing:
+		step nw
+		jump b
+	endif
+	if w == nothing:
+		step w
+		jump c
+	endif
+	if sw == nothing:
+		step sw
+		jump d
+	endif
+	if s == wall:
+		step n
+		step nw
+		jump e
+	endif
+else:
+	step w
+endif
+jump a
+e:
+d:
+c:
+b:
+step sw
+step s
+step sw
+step w
+step w
+step w
+step nw
+step n
+step n
+step nw
+step n
+step n

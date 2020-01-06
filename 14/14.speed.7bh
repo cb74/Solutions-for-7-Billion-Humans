@@ -1,0 +1,9 @@
+-- 7 Billion Humans --
+-- 14: Intro au Broyage --
+
+if s == datacube:
+	pickup s
+	step s
+	step s
+	giveto s
+endif

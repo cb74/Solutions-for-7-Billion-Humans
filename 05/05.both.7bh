@@ -1,0 +1,11 @@
+-- 7 Billion Humans --
+-- 5: Une Décision Importante --
+
+if w == datacube:
+	a:
+	step w
+	jump a
+endif
+b:
+step e
+jump b
