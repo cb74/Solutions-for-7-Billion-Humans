@@ -1,0 +1,11 @@
+-- 7 Billion Humans --
+-- 18: Utilisation Unique --
+
+pickup w
+step sw
+a:
+if s != shredder:
+	step se
+	jump a
+endif
+giveto s

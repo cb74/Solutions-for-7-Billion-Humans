@@ -1,0 +1,22 @@
+-- 7 Billion Humans --
+-- 12: Fermeture Éclair --
+
+pickup c
+step n
+a:
+if w == wall or
+ w == nothing:
+	drop
+	jump b
+endif
+step s
+step s
+if w == nothing:
+	drop
+	jump c
+endif
+step n
+step n
+jump a
+c:
+b:

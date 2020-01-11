@@ -1,0 +1,8 @@
+-- 7 Billion Humans --
+-- 19: Patch des Créateurs de Contenu --
+
+takefrom s
+a:
+giveto se
+takefrom sw
+jump a
