@@ -1,0 +1,12 @@
+-- 7 Billion Humans --
+-- 23: Hall de Tri --
+
+pickup s
+a:
+if myitem > e:
+	step e
+endif
+if myitem < w:
+	step w
+endif
+jump a

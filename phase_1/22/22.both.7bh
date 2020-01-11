@@ -1,0 +1,13 @@
+-- 7 Billion Humans --
+-- 22: Royale des Nombres --
+
+pickup s
+a:
+if myitem < e or
+ myitem < w:
+	b:
+	step s
+	jump b
+endif
+step w
+jump a
