@@ -1,0 +1,12 @@
+-- 7 Billion Humans --
+-- 31: Organisation en Damier --
+
+mem1 = nearest printer
+a:
+if c == nothing:
+	drop
+	takefrom mem1
+	step w,n,e
+endif
+step nw,sw,ne,se
+jump a

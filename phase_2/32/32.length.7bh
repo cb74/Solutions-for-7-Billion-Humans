@@ -1,0 +1,11 @@
+-- 7 Billion Humans --
+-- 32: Écriture Maladive --
+
+a:
+step nw,w,sw,n,s,ne,e,se
+if c == 0:
+	pickup c
+	write 99
+	drop
+endif
+jump a

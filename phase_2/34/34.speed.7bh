@@ -1,0 +1,19 @@
+-- 7 Billion Humans --
+-- 34: Trouver et Détruire 1 --
+
+mem1 = nearest shredder
+step n
+step n
+step n
+mem2 = set c
+a:
+if n != nothing and
+ n < mem2:
+	mem2 = set n
+endif
+step n
+if n == wall:
+	pickup mem2
+	giveto mem1
+endif
+jump a

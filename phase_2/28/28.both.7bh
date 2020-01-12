@@ -1,0 +1,7 @@
+-- 7 Billion Humans --
+-- 28: Chemins Neuronaux --
+
+mem1 = nearest datacube
+mem2 = nearest shredder
+pickup mem1
+giveto mem2
