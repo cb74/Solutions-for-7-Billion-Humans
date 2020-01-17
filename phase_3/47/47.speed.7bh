@@ -1,0 +1,7 @@
+-- 7 Billion Humans --
+-- 47: Civilités Automatisées --
+
+if w != nothing:
+	listenfor morning
+endif
+tell e morning

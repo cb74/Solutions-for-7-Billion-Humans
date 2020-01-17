@@ -1,0 +1,17 @@
+-- 7 Billion Humans --
+-- 43: Table de Multiplication --
+
+a:
+if n != wall:
+	step n
+	jump a
+endif
+mem1 = set c
+b:
+step s
+pickup c
+mem3 = calc mem1 x mem2
+write mem3
+drop
+mem2 = calc mem2 + 1
+jump b

@@ -1,0 +1,26 @@
+-- 7 Billion Humans --
+-- 37: Usage Dangereux du Tableur --
+
+a:
+if e != hole:
+	step e
+else:
+	step se
+	if ne != hole:
+		step ne
+	else:
+		step e
+		step ne
+	endif
+endif
+if e == wall:
+	pickup c
+	write mem1
+	drop
+	jump b
+endif
+pickup c
+mem1 = calc mem1 + myitem
+drop
+jump a
+b:

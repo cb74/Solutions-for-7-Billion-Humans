@@ -1,0 +1,10 @@
+-- 7 Billion Humans --
+-- 48: Entrainement de la Communauté --
+
+if n != wall:
+	listenfor go
+endif
+takefrom s
+mem1 = nearest shredder
+giveto mem1
+tell everyone go

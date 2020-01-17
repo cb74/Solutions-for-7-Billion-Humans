@@ -1,0 +1,14 @@
+-- 7 Billion Humans --
+-- 41: Déchiffreur d'Image --
+
+mem1 = nearest datacube
+pickup mem1
+a:
+step w
+mem1 = calc mem1 - 1
+if mem1 == 0:
+	drop
+	mem2 = nearest hole
+	step mem2
+endif
+jump a

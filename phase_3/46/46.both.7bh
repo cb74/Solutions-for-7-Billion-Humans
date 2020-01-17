@@ -1,0 +1,12 @@
+-- 7 Billion Humans --
+-- 46: Romance de Bureau Obligatoire --
+
+a:
+if w == nothing:
+	tell e hi
+	listenfor hi
+else:
+	listenfor hi
+	tell w hi
+endif
+jump a

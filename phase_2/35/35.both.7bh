@@ -1,0 +1,7 @@
+-- 7 Billion Humans --
+-- 35: Les Maths pour Tous --
+
+pickup s
+mem1 = calc myitem + 1
+write mem1
+drop

@@ -1,0 +1,27 @@
+-- 7 Billion Humans --
+-- 44: Fête de la Mode Unique --
+
+pickup s
+a:
+if s != wall:
+	step s
+	jump a
+endif
+b:
+if s != hole:
+	step e
+	jump b
+endif
+mem1 = set 0
+mem2 = set myitem
+c:
+if mem2 != mem1:
+	step e
+	mem1 = calc mem1 + 1
+	jump c
+endif
+if n != worker:
+	step n
+else:
+	step s
+endif

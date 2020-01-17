@@ -1,0 +1,17 @@
+-- 7 Billion Humans --
+-- 49: Destruction à Double Face --
+
+mem1 = nearest wall
+mem2 = nearest shredder
+a:
+if w == nothing or
+ e == nothing:
+	pickup s
+	giveto mem2
+	step mem1
+	tell everyone go
+	jump b
+endif
+listenfor go
+jump a
+b:

@@ -1,0 +1,28 @@
+-- 7 Billion Humans --
+-- 50: Cabine de Communication --
+
+mem1 = set sw
+mem2 = nearest printer
+a:
+takefrom mem2
+if mem1 == 1:
+	giveto se
+	tell everyone hi
+	listenfor ok
+endif
+if mem1 == 2:
+	listenfor hi
+	giveto se
+	tell everyone morning
+endif
+if mem1 == 3:
+	listenfor morning
+	giveto se
+	tell everyone ready
+endif
+if mem1 == 4:
+	listenfor ready
+	giveto se
+	tell everyone ok
+endif
+jump a
