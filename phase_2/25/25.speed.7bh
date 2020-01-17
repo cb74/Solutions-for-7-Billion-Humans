@@ -1,0 +1,13 @@
+-- 7 Billion Humans --
+-- 25: Mon Premier Souvenir de Broyage --
+
+mem2 = nearest shredder
+a:
+mem1 = nearest datacube
+if mem1 == datacube:
+	pickup mem1
+	if myitem == datacube:
+		giveto mem2
+	endif
+	jump a
+endif

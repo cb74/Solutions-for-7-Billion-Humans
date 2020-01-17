@@ -1,0 +1,21 @@
+-- 7 Billion Humans --
+-- 24: Brigade du Budget 1 --
+
+if s == printer:
+	a:
+	takefrom s
+	giveto e
+	jump a
+endif
+if s == hole:
+	b:
+	if myitem == something:
+		giveto e
+	endif
+	jump b
+endif
+c:
+if myitem == something:
+	giveto s
+endif
+jump c
