@@ -1,0 +1,30 @@
+-- 7 Billion Humans --
+-- 53: 100 Cubes au Sol --
+
+a:
+if w != wall:
+	step w
+	jump a
+endif
+if n == wall and
+ w == wall:
+	mem1 = set 0
+	pickup c
+	write mem1
+	drop
+	tell s go
+else:
+	pickup c
+	listenfor go
+	mem1 = calc n + 10
+	write mem1
+	drop
+	tell s go
+endif
+b:
+step e
+pickup c
+mem1 = calc mem1 + 1
+write mem1
+drop
+jump b
