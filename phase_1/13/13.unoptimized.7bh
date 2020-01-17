@@ -1,0 +1,29 @@
+-- 7 Billion Humans --
+-- 13: Chantier d'Insertion 2 --
+
+pickup s
+step s
+a:
+step s
+step s
+b:
+if c == nothing:
+	drop
+endif
+step e
+if e == wall:
+	jump c
+endif
+jump b
+c:
+step s
+step s
+d:
+if c == nothing:
+	drop
+endif
+step w
+if w == wall:
+	jump a
+endif
+jump d
